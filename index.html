@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TNW | The heart of the web</title>
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <nav class="main-nav">
-    <button><img src="images/menu.svg" alt=""></button>
-    <ul>
+    <button class="menu-btn"><img src="images/menu.svg" alt=""></button>
+    <ul class="nav-links">
       <li><a href="#">Home</a></li>
       <li><a href="#">News</a></li>
       <li><a href="#">Events</a></li>
@@ -22,47 +23,45 @@
   </nav>
 
   <header>
-    <div class="logo-wrapper">
-      <img class="logo" src="images/logo.svg" alt="">
-    </div>
-
-    <h1 class="main-heading">The heart of tech</h1>
+    <img class="logo" src="images/logo.svg" alt="">
+    <h1 class="header-tagline">The heart of tech</h1>
   </header>
 
   <section class="top-articles">
-    <ul>
+    <div class="top-articles-wrapper">
       <a href="#">
-        <li>
+        <div class="top-article">
           <p class="topic-tag">TECH</p>
           <h3>There is a multibillion dollar market for your phone's location data</h3>
-        </li>
+        </div>
       </a>
 
       <a href="#">
-        <li>
+        <div class="top-article">
           <p class="topic-tag">NEURAL</p>
           <h3>Amazon tells Tesla to hold its beer in contest for stupidest robot ever built</h3>
-        </li>
+        </div>
       </a>
 
       <a href="#">
-        <li>
+        <div class="top-article">
           <p class="topic-tag">PLUGGED</p>
           <h3>Amazon Astro could be the first robot assistent</h3>
-        </li>
+        </div>
       </a>
 
       <a href="#">
-        <li>
+        <div class="top-article">
           <p class="topic-tag">NEURAL</p>
           <h3>Researchers use AI to determine which animal diseases will infect humans next</h3>
-        </li>
+        </div>
       </a>
-    </ul>
+    </div>
+
     <div class="conference-ad">
-      <p>et's keep the party going!</p>
-      <h3>TNW Conferende 2022</h3>
-      <button type="button">GET TICKETS</button>
+      <h3>Let's keep the party going!</h3>
+      <h3>TNW Conference 2022</h3>
+      <button class="conference-btn" type="button">GET TICKETS</button>
     </div>
   </section>
 
@@ -70,56 +69,56 @@
 
   <section class="latest-stories">
     <h2>Latest stories</h2>
-    <ul>
-      <li>
+    <div class="latest-stories-wrapper">
+      <div class="latest-story">
         <img src="images/rust.jpg" alt="Thought you loved Python? Wait until you meet Rust">
         <h3>Thought you loved Python? Wait until you meet Rust</h3>
-      </li>
+      </div>
 
-      <li>
+      <div class="latest-story">
         <img src="images/playstation_plus.jpg" alt="Get 3 PlayStation Plus memberships to give away or keep for yourself &#8212; and it&#8217;s all on sale big right now">
         <h3>Get 3 PlayStation Plus memberships to give away or keep for yourself &#8212; and it&#8217;s all on sale big right now</h3>
-      </li>
+      </div>
 
-      <li>
+      <div class="latest-story">
         <img src="images/location_data.jpg" alt="There’s a multibillion-dollar market for your phone’s location data">
         <h3>There’s a multibillion-dollar market for your phone’s location data</h3>
-      </li>
+      </div>
 
-      <li>
+      <div class="latest-story">
         <img src="images/writers_block.jpg" alt="Save $70 on a lifetime subscription to this app that helps you beat writer&#8217;s block">
         <h3>Save $70 on a lifetime subscription to this app that helps you beat writer&#8217;s block</h3>
-      </li>
+      </div>
 
-      <li>
+      <div class="latest-story">
         <img src="images/swapfiets.jpg" alt="Swapfiets disrupts bike hiring and asserts their green cred">
         <h3>Swapfiets disrupts bike hiring and asserts their green cred</h3>
-      </li>
+      </div>
 
-      <li>
+      <div class="latest-story">
         <img src="images/underground_market_places.jpg" alt="How cultural differences shape online underground marketplaces">
 
         <h3>How cultural differences shape online underground marketplaces</h3>
-      </li>
+      </div>
 
-      <li>
+      <div class="latest-story">
         <img src="images/tech_deceased.jpg" alt="How tech is helping people remember their deceased loved ones">
         <h3>How tech is helping people remember their deceased loved ones</h3>
-      </li>
+      </div>
 
-      <li>
+      <div class="latest-story">
         <img src="images/meeting_rules.jpg" alt="4 video meeting rules we should keep following in the office">
         <h3>4 video meeting rules we should keep following in the office</h3>
-      </li>
-    </ul>
+      </div>
+    </div>
 
-    <button type="button"> ALL NEWS</button>
+    <button class="news-btn" type="button"> ALL NEWS</button>
   </section>
 
   <section class="channels">
     <h2>Explore our channels</h2>
 
-    <div>
+    <div class="channels-wrapper">
       <div class="channel">
         <img src="images/plugged.svg" alt="PLugged">
         <h3>Your sardonic source for consumer tech stories</h3>
@@ -136,16 +135,17 @@
       </div>
 
       <div class="channel">
-        <img src="growth-quarters.svg" alt="Growth Quarters">
+        <img src="images/growth-quarters.svg" alt="Growth Quarters">
         <h3>No nonsense perspectives on startup growth</h3>
       </div>
 
       <div class="channel">
-        <img src="hardfork.svg" alt="Hard Fork">
+        <img src="images/hardfork.svg" alt="Hard Fork">
         <h3>Inside money, markets and Big Tech</h3>
       </div>
 
       <div class="channel">
+        <img src="" alt="">
         <h3>The hottest new jobs in tech</h3>
       </div>
     </div>

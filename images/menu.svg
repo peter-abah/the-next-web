@@ -1,1 +1,15 @@
-<svg xmlns='http://www.w3.org/2000/svg'><path d='M3 3h4v4H3zm14 0h4v4h-4zm-7 0h4v4h-4zm-7 7h4v4H3zm14 0h4v4h-4zm-7 0h4v4h-4zm-7 7h4v4H3zm14 0h4v4h-4zm-7 0h4v4h-4z' fill='#A7AAB2'/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="menu">
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M0 0L4.04 0L4.04 4.04L0 4.04L0 0ZM14.14 0L18.18 0L18.18 4.04L14.14 4.04L14.14 0ZM7.07 0L11.11 0L11.11 4.04L7.07 4.04L7.07 0ZM0 7.07L4.04 7.07L4.04 11.11L0 11.11L0 7.07ZM14.14 7.07L18.18 7.07L18.18 11.11L14.14 11.11L14.14 7.07ZM7.07 7.07L11.11 7.07L11.11 11.11L7.07 11.11L7.07 7.07ZM0 14.14L4.04 14.14L4.04 18.18L0 18.18L0 14.14ZM14.14 14.14L18.18 14.14L18.18 18.18L14.14 18.18L14.14 14.14ZM7.07 14.14L11.11 14.14L11.11 18.18L7.07 18.18L7.07 14.14Z" transform="translate(3.03 3.03)" id="Shape" fill="#A7AAB2" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>
